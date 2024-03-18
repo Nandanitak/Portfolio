@@ -1,0 +1,261 @@
+html,body
+{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+body
+{
+font-family: "Helvetica Neue",sans-serif;
+font-weight: lighter;
+background-color:#907049;
+/*  background-color: black;*/
+}
+marquee
+        {
+            color: aliceblue;
+            text-align: center;
+            font-size: 50px;
+            text-decoration: underline;
+            text-shadow: 2px 2px gray;
+            font-style: italic;
+        }
+header 
+{
+width: 100%;
+height: 100vh;
+background: url('https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg')  50% 50%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.content {
+width: 94%;
+margin: 4em auto;
+font-size: 20px;
+line-height: 30px;
+text-align: justify;
+}
+
+.logo {
+line-height: 60px;
+position: fixed;
+float: left;
+margin: 10px 26px;
+color: #fff;
+font-weight: bold;
+font-size: 20px;
+letter-spacing: 2px;
+}
+
+nav {
+position: fixed;
+width: 100%;
+line-height: 60px;
+font-family: 'ubuntu',sans-serif;
+transition: all 0.3s ease;
+
+}
+
+
+nav ul {
+line-height: 60px;
+list-style: none;
+background: rgba(0, 0, 0, 0);
+overflow: hidden;
+color: white;
+padding: 0;
+text-align: right;
+margin: 0;
+padding-right: 40px;
+transition: 1s;
+}
+
+nav ul li {
+display: inline-block;
+padding: 10px 30px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: white;
+font-size: 16px;
+}
+                                    
+.home
+{
+display: flex;
+color: #fff;
+min-height: 500px;
+font-family:'Ubuntu',sans-serif;
+}
+
+.home .max-width
+{
+margin: auto 0 auto40px;
+}
+.home .home-content .text-1
+{
+font-size: 27px;
+margin-top: 220px;
+margin-left: 50px;
+}
+.home .home-content .text-2
+{
+font-size: 75px;
+font-weight: 600;
+margin-left: -3px;
+margin-left: 55px;
+}
+.home .home-content .text-3
+{
+font-size: 27px;
+margin: 2px 0;
+margin-left: 30px;
+}
+
+.hero-text
+{
+margin-top: 150px;
+}
+.wrapper .menu-icon
+{
+color: white;
+font-size: 23px;
+cursor: pointer;
+display: none;
+}
+body {
+margin: 0;
+padding: 0;
+}
+footer
+{
+background-color:#ECDEC9;
+}
+
+/*section
+{
+padding: 100px 0;
+}
+.About
+{
+font-family:'poppins',sans-serif;
+
+}
+.About .title
+{
+font-family: 'Ubuntu',sans-serif;
+font-weight: 500;
+text-align: center;
+font-size: 40;
+margin-bottom: 60px;
+padding-bottom: 20px;
+position: relative;
+}
+.About .About-content 
+{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+
+.Skills
+{
+font-family: 'poppins',sans-serif;
+
+}
+.Skills .title
+{
+font-family: 'Ubuntu',sans-serif;
+font-weight: 500;
+text-align: center;
+font-size: 40;
+margin-bottom: 60px;
+padding-bottom: 20px;
+position: relative;
+}
+.Skills .Skills-content 
+{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.wrapper nav .menu ul li
+{
+display: inline-block;
+}
+.wrapper nav  .menu ul li a
+{
+display: inline-block;
+margin: 20px 0;
+font-size: 25px;
+font-weight: 50%;
+color:white;
+}
+.wrapper nav .menu ul li a:hover
+{
+color:#e6e600;
+}
+.hover-line:after
+{
+content: "";
+display: block;
+width: 0%;
+height: 2px;
+background-color:#e6e600;
+transition:width .3;
+}
+.hover-line:hover::after
+{
+width: 100%;
+transition: width .3s;
+}
+nav ul
+{
+      max-height: 0px;
+      background: #000;
+}
+nav ul li {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 24px;
+      text-align: center;
+}
+@media(max-width: 947px) {
+
+.max-width
+{
+padding: 0 50px;
+}
+.logo {
+      position: fixed;
+      top: 0;
+      margin-top:20px;
+}
+.wrapper .menu
+{
+      position: fixed;
+      height:100vh ;
+      width: 100%;
+      left: 0;
+      top: 0;
+      background:#e6e600;
+}
+
+
+nav ul
+{
+      max-height: 0px;
+      background: #000;
+}
+nav ul li {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 24px;
+      text-align: center;
+}
+      */
